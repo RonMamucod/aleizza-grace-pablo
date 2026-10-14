@@ -34,27 +34,34 @@ const FloatingContactButton = () => {
   };
 
   return (
-    <button
-      type="button"
-      onClick={saveContact}
-      aria-label="Save Ron Mamucod's contact"
-      className="fixed bottom-6 right-6 z-50 group flex items-center gap-3 rounded-full border border-primary/40 bg-background/90 px-5 py-3 text-foreground shadow-lg shadow-primary/10 backdrop-blur-xl transition-all duration-300 hover:scale-105 hover:border-primary hover:shadow-primary/30"
-    >
-      <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-background transition-transform duration-300 group-hover:rotate-6">
-        <Contact className="h-5 w-5" />
-      </span>
+    
+<button
+  type="button"
+  onClick={saveContact}
+  aria-label="Save Ron Mamucod's contact"
+  className="fixed bottom-4 left-4 right-4 z-50 group flex items-center justify-between gap-4 rounded-full border border-primary/40 bg-background/90 px-5 py-3 text-foreground shadow-lg shadow-primary/10 backdrop-blur-xl transition-all duration-300 hover:border-primary hover:shadow-primary/30 sm:bottom-6 sm:left-auto sm:right-6 sm:w-auto sm:min-w-[260px]"
+>
+  {/* Contact Icon */}
+  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary text-background">
+    <Contact className="h-5 w-5" />
+  </span>
 
-      <span className="flex flex-col items-start">
-        <span className="text-sm font-semibold">
-          Save My Contact
-        </span>
-        <span className="text-xs text-muted-foreground">
-          Add me to your contacts
-        </span>
-      </span>
+  {/* Text */}
+  <span className="flex flex-1 flex-col items-start">
+    <span className="text-sm font-semibold whitespace-nowrap">
+      Save My Contact
+    </span>
+    <span className="text-xs text-muted-foreground whitespace-nowrap">
+      Add me to your contacts
+    </span>
+  </span>
 
-      <Download className="ml-1 h-4 w-4 text-primary transition-transform duration-300 group-hover:translate-y-0.5" />
-    </button>
+  {/* Download Icon */}
+  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary transition-colors group-hover:bg-primary/20">
+    <Download className="h-5 w-5" />
+  </span>
+</button>
+
   );
 };
 
