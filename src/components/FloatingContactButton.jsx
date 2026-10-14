@@ -8,7 +8,7 @@ const FloatingContactButton = () => {
   "BEGIN:VCARD",
   "VERSION:3.0",
   "FN:Aleizza Grace Pablo",
-  "N:Pablo;Aleizza Grace;;;",
+  "N:Pablo;Aleizza Grace;",
   "TITLE:Staff Nurse",
   "TEL;TYPE=CELL:+639506133824",
   "EMAIL;TYPE=INTERNET:aleizzapablo@gmail.com",
