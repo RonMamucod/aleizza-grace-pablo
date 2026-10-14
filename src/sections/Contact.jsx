@@ -20,14 +20,14 @@ const contactInfo = [
   {
     icon: Phone,
     label: "Phone",
-    value: "+63 977 326 3172",
-    href: "tel:+639773263172",
+    value: "+63 961 786 7924",
+    href: "tel:09617867924",
   },
   {
     icon: MapPin,
     label: "Location",
     value: "Mayantoc, Tarlac, Philippines",
-    href: "#",
+    href: "https://maps.app.goo.gl/PKo1geqC3Yviq3JSA",
   },
 ];
 

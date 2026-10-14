@@ -100,7 +100,9 @@ const Projects = () => {
             {/* View All CTA */}
             <div className='text-center mt-12 animate-fade-in animation-delay-500'>
               <AnimatedBorderButton >
-                View All projects
+                <a href="https://davenircreative.com/" target='_blank' className="flex items-center gap-2">
+                  View All Projects
+                </a>
                 <ArrowUpRight className='w-5 h-5'/>
               </AnimatedBorderButton>
             </div>

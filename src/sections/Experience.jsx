@@ -1,6 +1,24 @@
 import React from 'react'
 const experiences = [
   {
+    period: "August 2026 — Present",
+    role: "UI/UX Web Developer",
+    company: "Getmilk",
+    description:
+      "I build and manage custom WordPress websites, handle content updates and maintenance, and ensure responsive layouts and a smooth user experience across all devices.",
+    technologies: ["Wordpress", "HTML", "CSS", "PHP"],
+    current: true,
+  },
+  {
+    period: "March 2026 — July 2026",
+    role: "Wordpress Web Developer",
+    company: "CS-PAC Global ",
+    description:
+      "I built and manage the Amazing Morrow website using WordPress, handling website development, content updates, SEO optimization, and performance improvements while ensuring a responsive and user-friendly experience.",
+    technologies: ["Wordpress", "SEO", "Off-page SEO", "On-page SEO"],
+    current: true,
+  },
+  {
     period: "April 2024 — January 2026",
     role: "UI/UX Web Developer",
     company: "Getmilk",

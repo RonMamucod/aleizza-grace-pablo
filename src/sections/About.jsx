@@ -47,13 +47,11 @@ const About = () => {
 
               <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
                 <p>
-                  I’m a passionate web developer with nearly two years of experience in UI/UX design and website development. My journey started with a curiosity about how websites work, and it has grown into a strong foundation in both design and frontend development.
-                </p>
+                  I’m a passionate web developer and SEO expert with experience in UI/UX design, website development, and search engine optimization. I’m proficient in WordPress, with a strong focus on building and optimizing websites that are both visually appealing and functional.</p>
                 <p>
-                 I specialize in building clean, responsive, and user-friendly websites using WordPress—from engaging landing pages to fully functional business sites. With a background in UI/UX, I focus on creating experiences that are not only visually appealing but also intuitive and effective.
-                </p>
+                 I specialize in creating clean, responsive, and user-friendly WordPress websites, from engaging landing pages to fully functional business and e-commerce sites. With my background in UI/UX design, I aim to deliver websites that provide a great user experience while applying SEO best practices to improve search visibility, website performance, and online presence.</p>
                 <p>
-                  When I’m not coding, I’m exploring new technologies, improving my skills, and working on projects that challenge my creativity and growth as a developer.
+                  When I’m not coding, I’m exploring new technologies, improving my SEO skills, and working on projects that challenge my creativity and help me grow as a developer.
                 </p>
               </div>
 
