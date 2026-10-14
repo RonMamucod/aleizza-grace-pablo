@@ -60,7 +60,7 @@ const Hero = () => {
           <div className='order-2 lg:order-1 space-y-8'>
             <div className='animate-fade-in'>
               <span className='inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary'>
-                <span className='w-2 h-2 bg-primary rounded-full animate-pulse' />Staff Nurse | Gilberto O. Teodoro Memorial Hospital
+                <span className='w-2 h-2 bg-primary rounded-full animate-pulse' />Staff Nurses | Gilberto O. Teodoro Memorial Hospital
 
               </span>
             </div>
@@ -68,7 +68,7 @@ const Hero = () => {
             {/* Headline */}
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-                <span className="text-primary glow-text">Aleizza Grace Naigan Pablo</span>
+                <span className="text-primary glow-text">AAleizza Grace Naigan Pablo</span>
                 
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
