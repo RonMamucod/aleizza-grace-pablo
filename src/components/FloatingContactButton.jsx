@@ -9,7 +9,7 @@ const FloatingContactButton = () => {
   "VERSION:3.0",
   "FN:Aleizza Grace Pablo",
   "N:Pablo;Aleizza Grace;;;",
-  "TITLE:Web Developer & WordPress Specialist",
+  "TITLE:Staff Nurse",
   "TEL;TYPE=CELL:+639506133824",
   "EMAIL;TYPE=INTERNET:aleizzapablo@gmail.com",
   "URL:https://www.facebook.com/aleizza.pablo.2025",
