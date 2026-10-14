@@ -5,9 +5,7 @@ import { MenuIcon, X, Contact, Download } from "lucide-react";
 
 const navLinks = [
   { href: "#about", label: "About" },
-  { href: "#projects", label: "Projects" },
   { href: "#experience", label: "Experience" },
-  { href: "#testimonials", label: "Testimonials" },
 ];
 
 const Navbar = () => {
@@ -27,13 +25,13 @@ const Navbar = () => {
     const contact = [
       "BEGIN:VCARD",
       "VERSION:3.0",
-      "FN:Ron Mamucod",
-      "N:Mamucod;Ron;;;",
-      "TITLE:Web Developer & WordPress Specialist",
+      "FN:Aleizza Grace Pablo",
+      "N:Pablo;Aleizza Grace;;;",
+      "TITLE:Staff Nurse",
       "TEL;TYPE=CELL:+639617867924",
-      "EMAIL;TYPE=INTERNET:mamucodron@gmail.com",
-      "URL:https://github.com/RonMamucod",
-      "URL:https://www.linkedin.com/in/ron-mamucod-150588282/",
+      "EMAIL;TYPE=INTERNET:aleizzapablo@gmail.com",
+      "URL:https://www.facebook.com/aleizza.pablo.2025",
+      "URL:https://www.instagram.com/assangyy/",
       "END:VCARD",
     ].join("\r\n");
 
@@ -45,7 +43,7 @@ const Navbar = () => {
     const link = document.createElement("a");
 
     link.href = url;
-    link.download = "Ron-Mamucod.vcf";
+    link.download = "Aleizza-Grace-Pablo.vcf";
     document.body.appendChild(link);
     link.click();
     link.remove();
@@ -55,9 +53,8 @@ const Navbar = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 transition-all duration-500 ${
-        isScrolled ? "glass-strong py-3" : "bg-transparent py-5"
-      } z-50`}
+      className={`fixed top-0 left-0 right-0 transition-all duration-500 ${isScrolled ? "glass-strong py-3" : "bg-transparent py-5"
+        } z-50`}
     >
       <nav className="container mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
@@ -66,8 +63,8 @@ const Navbar = () => {
           className="text-xl font-bold tracking-tight hover:text-primary"
         >
           <img
-            src="/RM-Logo.png"
-            alt="Ron Mamucod"
+            src="/Aleizza-Pablo-Logo.png"
+            alt="Aleizza Grace Pablo"
             width="60"
             height="60"
           />

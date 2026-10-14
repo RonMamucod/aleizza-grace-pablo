@@ -8,6 +8,7 @@ import {
   Twitter,
   Download,
   Facebook,
+  Instagram,
 } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 import FloatingContactButton from "../components/FloatingContactButton";
@@ -33,12 +34,7 @@ const skills = [
 const Hero = () => {
   return (
     <section className='relative min-h-screen flex items-center overflow-hidden'>
-      {/* Background */}
-      <div className='absolute inset-0'>
-        <img src="
-        /hero-bg.jpg" alt="Hero Image" className='w-full h-full object-cover opacity-40' />
-      </div>
-      <div className='absolute inset-0 bg-gradient-to-b from-background/20 via-background/80 to-background' />
+      
 
       {/* Green Dots */}
       <div className='absolute inset-0 overflow-hidden pointer-events-none'>
@@ -58,30 +54,25 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className='container mx-auto px-6 pt-32 pb-20 relative z-10'>
+      <div className='container mx-auto px-6 pt-32 md:py-12 pb-20 relative z-10'>
         <div className='grid lg:grid-cols-2 gap-12 items-center'>
           {/*Left Column - Text Content */}
           <div className='order-2 lg:order-1 space-y-8'>
             <div className='animate-fade-in'>
               <span className='inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary'>
-                <span className='w-2 h-2 bg-primary rounded-full animate-pulse' />Web Developer & WordPress Specialist & SEO Expert
+                <span className='w-2 h-2 bg-primary rounded-full animate-pulse' />Staff Nurse | Gilberto O. Teodoro Memorial Hospital
+
               </span>
             </div>
 
             {/* Headline */}
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Shaping <span className="text-primary glow-text">digital</span>
-                <br />
-                experiences with
-                <br />
-                <span className="font-serif italic font-normal text-white">
-                  code and creativity.
-                </span>
+                <span className="text-primary glow-text">Aleizza Grace Naigan Pablo</span>
+                
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I’m Ron Mamucod — a web developer and SEO expert specializing in WordPress, frontend design, and search engine optimization. I build responsive, user-friendly websites and optimize them to improve search visibility, website performance, and user experience.
-              </p>
+                I am a Registered Nurse from the Philippines with a passion for providing compassionate, patient-centered care. With a background in nursing education, student leadership, and athletics, I value teamwork, responsibility, and continuous growth in the nursing profession.</p>
             </div>
 
             {/* CTA */}
@@ -96,7 +87,7 @@ const Hero = () => {
                 <AnimatedBorderButton>
                   <Download className="w-5 h-5" />
                   <a
-                    href="/MAMUCOD_RESUME.pdf"
+                    href="/Aleizza-Pablo-Resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -110,9 +101,9 @@ const Hero = () => {
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
-                { icon: Github, href: "https://github.com/RonMamucod" },
-                { icon: Linkedin, href: "https://www.linkedin.com/in/ron-mamucod-150588282/" },
-                { icon: Facebook, href: "https://www.facebook.com/RonMamucod03" },
+               
+                { icon: Facebook, href: "https://www.facebook.com/aleizza.pablo.2025" },
+                { icon: Instagram, href: "https://www.instagram.com/assangyy/" },
               ].map((social, idx) => (
                 <a
                   key={idx}
@@ -136,22 +127,22 @@ const Hero = () => {
               to-primary/10 blur-2xl animate-pulse"
               />
               <div className='relative glass rounded-3xl p-2 glow-border'>
-                <img src="/Profile-Picture.jpg" alt="Ron Mamucod" className='w-full aspect-[4/5] object-cover rounded-2xl' />
+                <img src="/Aleizza-Grace-IMG-1.jpg" alt="Aleizza Grace Pablo" className='w-full aspect-[4/5] object-cover rounded-2xl' />
 
                 {/* Floating Badge */}
-                <div className='absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float'>
+                <div className='absolute -bottom-4 -right-4 bg-primary rounded-xl px-4 py-3 animate-float'>
                   <div className='flex items-center gap-3 '>
-                    <div className='w-3 h-3 bg-green-500 rounded-full animate-pulse' />
-                    <span className='text-sm font-medium'>Available for work</span>
+                    <div className='w-3 h-3 bg-red-500 rounded-full animate-pulse' />
+                    <span className='text-sm font-medium text-white'>Currently employed</span>
                   </div>
                 </div>
 
                 {/* Stats Badge */}
-                <div className='absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500'>
-                  <div className='text-xl font-bold text-primary'>
-                    3+
+                <div className='absolute -top-4 -left-4 bg-primary rounded-xl px-4 py-3 animate-float animation-delay-500'>
+                  <div className='text-xl font-bold text-white'>
+                    1+
                   </div>
-                  <div className='text-xs text-muted-foreground'>
+                  <div className='text-xs text-white'>
                     Years Exp.
                   </div>
                 </div>
@@ -160,28 +151,12 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Skills Section */}
-        <div className='mt-20 animate-fade-in animation-delay-600'>
-          <p className='text-sm text-muted-foreground mb-6 text-center'>
-            Technologies I work with
-          </p>
-          <div className='relative overflow-hidden'>
-            <div className="flex animate-marquee">
-              {[...skills, ...skills].map((skill, idx) => (
-                <div key={idx} className="flex-shrink-0 px-8 py-4">
-                  <span className="text-xl font-semibold text-muted-foreground/50 hover:text-muted-foreground transition-colors">
-                    {skill}
-                  </span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
+        
       </div>
 
       {/* Scroll */}
       <div
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-fade-in animation-delay-800">
+        className="absolute bottom-0 left-1/2 -translate-x-1/2 animate-fade-in animation-delay-800">
         <a href="#about" className="flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors group">
           <span className="text-xs uppercase tracking-wider">Scroll</span>
           <ChevronDown className="w-6 h-6 animate-bounce" />
